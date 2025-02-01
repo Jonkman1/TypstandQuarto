@@ -6,9 +6,7 @@ editor: visual
 
 ## Introductie
 
-[`Typst`](https://typst.app/docs/tutorial/) is een nieuw open-source systeem of documenten te schrijven, op te maken en er pdf-documenten van te maken. Het is nog maar zo'n drie jaar oud en wil net zoiets zijn als `LaTeX`, maar het wil ook makkelijker te gebruiken en te leren zijn. Met `LaTeX` heb ik meer gewerkt, maar als ik het een tijdje niet gedaan heb, kost het me veel tijd op te zoeken hoe het ook alweer werkt.
-
-`Typst` is te gebruiken als je essays, artikelen, boeken, rapporten of bv. huiswerkopgaven wilt maken. Net als `LaTeX` kun je er goed mathematische notaties mee schrijven, je kunt figuren en andere elementen toevoegen en de opmaak is naar jouw hand te zetten. Misschien dat `Typst` mij beter past, ook omdat je er vanuit [`Quarto`](https://quarto.org/docs/output-formats/typst.html) mee kunt werken.
+[`Typst`](https://typst.app/docs/tutorial/) is een nieuw open-source systeem of documenten te schrijven, op te maken en er pdf-documenten van te maken. Het is nog maar zo'n drie jaar oud en wil net zoiets zijn als `LaTeX`, maar het wil ook makkelijker te gebruiken en te leren zijn. Met `LaTeX` heb ik meer gewerkt, maar als ik het een tijdje niet gedaan heb, kost het me veel tijd op te zoeken hoe het ook alweer werkt. `Typst` is te gebruiken als je essays, artikelen, boeken, rapporten of bv. huiswerkopgaven wilt maken. Net als `LaTeX` kun je er goed mathematische notaties mee schrijven, je kunt figuren en andere elementen toevoegen en de opmaak is naar jouw hand te zetten. Misschien dat `Typst` mij beter past, ook omdat je er vanuit [`Quarto`](https://quarto.org/docs/output-formats/typst.html) mee kunt werken.
 
 Dit is er zoal makkelijk mee te maken:
 
@@ -16,9 +14,9 @@ Dit is er zoal makkelijk mee te maken:
 
 ## Opmaak van een stuk tekst
 
-Op basis van de `Typst`-tutorial en de informatie van Quarto over `Typst` heb ik een stuk tekst genomen om het mooi op te kunnen maken. Hier zie je het eindresultaat: [Voorbeeld](Richtlijnenvoordetoekomst.pdf).
+Op basis van de `Typst`-tutorial en de informatie van Quarto over `Typst` heb ik een recent stuk tekst genomen dat ik mooi wilde op maken. Hier zie je het eindresultaat: [Voorbeeld](Richtlijnenvoordetoekomst.pdf).
 
-Regelmatig schrijf ik blogs over [Democratie en Onderwijs](https://democratieenonderwijs.netlify.app). Eind november schreef ik bijvoorbeeld een recentie over het boek *De kracht van gras. Walt Whitman en onze tijd* van Jan-Hendrik Bakker. Ik heb deze tekst genomen en gekeken of ik dit passend kan opmaken in `Typst` en `Quarto`. Hier is zie je hoe ik het heb gemaakt [.qmd-tekst](Richtlijnenvoordetoekomst.qmd). Een korte toelichting daarop:
+Deze tekst komt uit mijn blog waarin ik regelmatig schrijf over [Democratie en Onderwijs](https://democratieenonderwijs.netlify.app). Eind november schreef ik deze tekst bijvoorbeeld als een recentie over het boek *De kracht van gras. Walt Whitman en onze tijd* van Jan-Hendrik Bakker. Deze tekst wilde ik passend opmaken in `Typst` en `Quarto`. In deze [map](https://github.com/Jonkman1/TypstandQuarto) zit de file **Richtlijnenvoordetoekomst.qmd** waarmee deze tekst is opgemaakt. Een korte toelichting daarop:
 
 ### In yaml
 
@@ -37,12 +35,12 @@ Voor dat de tekst begint, heb ik enkele commondo's voor `Typst` toegevoegd:\
 
 ### In de tekst zelf
 
-In de tekst zelf heb ik ook enkele commando's toegevoegd:\
-- grootte en kleur van de koppen.\
-- de stijl van de inleiding
+In de tekst zelf heb ik ook enkele CSS-commando's toegevoegd:\
+- grootte en kleur van de koppen.\ (bv {style="font-size: 14pt; color: #cc6652"})   
+- de stijl van de inleiding :::{style="font-size: 16pt; color: gray"}
 
 ## Opmaak van een boek
 
 In `Quarto` zijn, zoals gezegd, ook enkele formats gemaakt die je zo kunt gebruiken. Ik de vorige aflevering van `Harrie's Hoekje` liet ik zien hoe je met een format en inzet van `Typst` en `Quarto` een [nieuwsbrief](https://harrieshoekjequarto.netlify.app/posts/2024-12-16-nieuwsbrief-met-typst/nieuwsbrief) kunt maken.
 
-Nu heb ik het format `fiction` gebruikt om een opzet te maken voor een boek dat ik voor ogen heb. [Het format](https://github.com/quarto-ext/typst-templates/tree/main/fiction) vind je hier. De opzet voor zo'n boek vind je hier. Het uiteindelijke pdf-resultaat vind je hier.
+Nu heb ik het format `fiction` gebruikt om een opzet te maken voor een boek dat ik voor ogen heb. [Het format](https://github.com/quarto-ext/typst-templates/tree/main/fiction) vind je hier. De opzet voor zo'n boek vind je hier. Dit is het [boek](Fiction/template.pdf). Hoe ik het heb gemaakt vind je [hier](https://github.com/Jonkman1/TypstandQuarto/tree/main/Fiction) 
